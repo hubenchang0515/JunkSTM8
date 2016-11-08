@@ -374,4 +374,42 @@ typedef struct CLOCK_Registers
     uint8_t SWIMCCR;
 }CLOCK_Registers;
 
+
+/* The registers of TIM1*/
+typedef struct TIM1_Regsters
+{
+	uint8_t CR1;
+	uint8_t CR2;
+	uint8_t SMCR;
+	uint8_t ETR;
+	uint8_t IER;
+	uint8_t SR1;
+	uint8_t SR2;
+	uint8_t EGR;
+	uint8_t CCMR1;
+	uint8_t CCMR2;
+	uint8_t CCMR3;
+	uint8_t CCMR4;
+	uint8_t CCER1;
+	uint8_t CCER2;
+	uint8_t CNTRH;
+	uint8_t CNTRL;
+	uint8_t PSCRH;
+	uint8_t PSCRL;
+	uint8_t ARRH;
+	uint8_t ARRL;
+	uint8_t RCR;
+	uint8_t CCR1H;
+	uint8_t CCR1L;
+	uint8_t CCR2H;
+	uint8_t CCR2L;
+	uint8_t CCR3H;
+	uint8_t CCR3L;
+	uint8_t CCR4H;
+	uint8_t CCR4L;
+	uint8_t BKR;
+	uint8_t DTR;
+	uint8_t IOSR;
+}TIM1_Regsters;
+
 #endif

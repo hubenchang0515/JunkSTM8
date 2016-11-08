@@ -21,10 +21,10 @@
 #include <stm8s.h>
 /*
 EXTI0 Port A 5Pins PA[6:2]
-EXTI0 Port B 8Pins PB[7:0]
-EXTI0 Port C 8Pins PC[7:0]
-EXTI0 Port D 7Pins PD[6:0]
-EXTI0 Port E 8Pins PE[7:0]
+EXTI1 Port B 8Pins PB[7:0]
+EXTI2 Port C 8Pins PC[7:0]
+EXTI3 Port D 7Pins PD[6:0]
+EXTI4 Port E 8Pins PE[7:0]
 */
 
 #define EXTI ((EXTI_Registers*)0x0050a0)

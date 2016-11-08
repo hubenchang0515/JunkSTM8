@@ -17,7 +17,7 @@
 
 #include <stm8s_uart.h>
 
-/* Only surpport the electrify default time */
+/* At the electrify default time */
 /* HSI(16MHz) Scale 8 */
 /* f(master) = 2MHz */
 extern uint32_t FMASTER;
@@ -240,7 +240,7 @@ uint16_t UART3_Receive(void)
 int16_t UART1_printf(const char* str,...)
 {
 	char fmtstr[UART_PRINTF_BUFFER_SIZE];
-	uint16_t index = 0;
+	uint8_t index = 0;
 	int16_t TrueLen = 0;
 	va_list argList;
 	va_start(argList,str);
@@ -261,7 +261,7 @@ int16_t UART1_printf(const char* str,...)
 int16_t UART2_printf(const char* str,...)
 {
 	char fmtstr[UART_PRINTF_BUFFER_SIZE];
-	uint16_t index = 0;
+	uint8_t index = 0;
 	int16_t TrueLen = 0;
 	va_list argList;
 	va_start(argList,str);
@@ -283,7 +283,7 @@ int16_t UART2_printf(const char* str,...)
 int16_t UART3_printf(const char* str,...)
 {
 	char fmtstr[UART_PRINTF_BUFFER_SIZE];
-	uint16_t index = 0;
+	uint8_t index = 0;
 	int16_t TrueLen = 0;
 	va_list argList;
 	va_start(argList,str);
