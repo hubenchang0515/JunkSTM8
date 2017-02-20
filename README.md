@@ -1,3 +1,3 @@
 # KuruKurumi-STM8Lib
-A simple example about how to write a library for stm8.
+A simple example about stm8.
 Chinese Blog:www.kurukurumi.com
