@@ -1,3 +1,3 @@
-# KuruKurumi-STM8Lib
-A simple example about stm8.
+# JunkSTM8
+A stm8s lib of on chip peripherals.
 Chinese Blog:www.kurukurumi.com
